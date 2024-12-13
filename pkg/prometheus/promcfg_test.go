@@ -12142,7 +12142,6 @@ func TestGenerateAlertmanagerConfig(t *testing.T) {
 						},
 						Data: map[string][]byte{
 							"proxy-header": []byte("value"),
-							"token":        []byte("value"),
 						},
 					},
 				),
